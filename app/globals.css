@@ -1,4 +1,13 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  
+@tailwind components;
+@tailwind utilities;
+
+/* import Ms Madi from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
